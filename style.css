@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border-radius: border-box;
+    padding: 0;
+}
+
+/* Winner area  */
+.winner{
+    height: 100vh;
+    background-color: #b13333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnStyle{
+    padding: 15px 70px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1vh;
+    cursor: pointer;
+    background-color: #EB8317;
+}
+.btnStyle:hover{
+    background-color: #170404;
+    color: aliceblue;
+    transition: all 0.4s ease-in-out;
+}
+.hide{
+    display: none;
+}
+
+/* Gaming Area */
+.gamingArea{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3e532e;
+}
+
+.playArea{
+        height: 250px;
+        max-width: 500px;
+        min-width: 250px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3px;
+}
+.box{
+    height: 31%;
+    width: 31%;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #0f6a46;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+}
+.box:hover{
+    transition: 0.5s;
+    background-color: #EB8317;
+    color: #0f6a46;
+}
